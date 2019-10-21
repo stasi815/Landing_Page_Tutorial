@@ -1,3 +1,38 @@
 body {
-    color:cyan;
+    color:rgb(51, 126, 126);
+}
+
+.navbar {
+    padding 1rem;
+}
+
+.btn-primary:hover {
+    background-color: blue;
+    color: white;
+}
+
+.hero-background-img {
+    position: relative;
+    background: rgba(0, 0, 0, 0.3);
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.hero-background-img:after {
+    content: "";
+    position: absolute;
+    background-image: url("hero_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    opacity: 1;
+}
+
+.hero-text {
+    color: black;
 }
